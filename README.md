@@ -88,11 +88,6 @@ This project is built with SEO best practices:
 
 ---
 
-## 📸 Screenshots
-
-*Add screenshots of your homepage, products, and UI here*
-
----
 
 ## ⚙️ Installation & Setup
 
