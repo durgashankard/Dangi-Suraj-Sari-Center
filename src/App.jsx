@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -55,6 +56,7 @@ function App() {
         <WhatsAppFAB />
         <ScrollUpButton />
       </div>
+      <SpeedInsights />
       </BrowserRouter>
     </SeoProvider>
   );
