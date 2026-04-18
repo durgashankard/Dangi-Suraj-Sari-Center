@@ -6,7 +6,7 @@ import PageTransition from '../components/PageTransition';
 const SareePage = () => (
   <PageTransition>
     <Helmet>
-      <title>Bridal & Designer Sarees | Dangi Suraj Sari Center</title>
+      <title>Bridal & Designer Sarees | Dangi Suraj Saree Center</title>
       <meta name="description" content="Explore our beautiful collection of bridal sarees, party wear sarees, and everyday drapes in Soyat Kalan." />
       <meta name="keywords" content="Saree shop in Soyat Kalan, Bridal Saree, Kanjivaram Silk, Banarasi Saree near Pirawa Road" />
     </Helmet>

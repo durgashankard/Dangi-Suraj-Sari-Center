@@ -43,7 +43,7 @@ const Hero = () => {
             className="text-primary text-sm md:text-base uppercase tracking-[0.4em] font-medium mb-6 flex items-center gap-3"
           >
             <span className="w-12 h-px bg-primary inline-block"></span>
-            Dangi Suraj Sari Center
+            Dangi Suraj Saree Center
           </motion.p>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold text-white leading-[1.1] mb-6">

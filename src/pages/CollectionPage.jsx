@@ -21,7 +21,7 @@ const CollectionPage = () => {
       {/* Banner */}
       <section className="relative pt-36 pb-16 bg-black overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/assets/images/hero.webp" alt="Dangi Suraj Sari Center full collection background" className="w-full h-full object-cover opacity-15" />
+          <img src="/assets/images/hero.webp" alt="Dangi Suraj Saree Center full collection background" className="w-full h-full object-cover opacity-15" />
           <div className="absolute inset-0 bg-gradient-to-b from-black via-black/80 to-black" />
         </div>
         <div className="absolute top-10 right-10 w-72 h-72 rounded-full border border-primary/10 pointer-events-none" />

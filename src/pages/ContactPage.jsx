@@ -45,7 +45,7 @@ const ContactPage = () => {
                   <div>
                     <h4 className="font-serif text-white text-lg mb-2">Showroom Address</h4>
                     <p className="text-gray-400 text-sm leading-relaxed">
-                      Dangi Suraj Sari Center<br />
+                      Dangi Suraj Saree Center<br />
                       Near Bank of India, Pirawa Road<br />
                       Soyat Kalan, Madhya Pradesh
                     </p>
@@ -129,7 +129,7 @@ const ContactPage = () => {
                   Visit Our <span className="text-primary italic">Showroom</span>
                 </h3>
                 <p className="text-gray-400 text-sm leading-relaxed mb-6">
-                  Dangi Suraj Sari Center<br />
+                  Dangi Suraj Saree Center<br />
                   Near Bank of India, Pirawa Road<br />
                   <span className="text-primary">Soyat Kalan, Madhya Pradesh</span>
                 </p>

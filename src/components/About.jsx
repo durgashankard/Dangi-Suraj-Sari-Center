@@ -15,7 +15,7 @@ const About = () => {
             <div className="aspect-[4/5] overflow-hidden relative border border-primary/20">
               <img
                 src="/assets/images/placeholder.webp"
-                alt="Dangi Suraj Sari store in Soyat Kalan"
+                alt="Dangi Suraj Saree store in Soyat Kalan"
                 className="w-full h-full object-cover grayscale-[30%] hover:grayscale-0 transition-all duration-700"
               />
               <div className="absolute inset-0 border-[20px] border-black mix-blend-overlay"></div>
@@ -37,7 +37,7 @@ const About = () => {
             </h2>
             <div className="space-y-6 text-gray-300 font-light leading-relaxed">
               <p>
-                Founded by <strong className="text-white font-medium">Rakesh Dangi</strong>, Dangi Suraj Sari Center has been a trusted cornerstone of fashion in Soyat Kalan. We blend traditional craftsmanship with contemporary designs to bring you the finest sarees for every occasion.
+                Founded by <strong className="text-white font-medium">Rakesh Dangi</strong>, Dangi Suraj Saree Center has been a trusted cornerstone of fashion in Soyat Kalan. We blend traditional craftsmanship with contemporary designs to bring you the finest sarees for every occasion.
               </p>
               <p>
                 From intricate bridal wear that makes your special day unforgettable, to lightweight daily wear that keeps you comfortable yet stylish, our collection is thoughtfully curated to meet the diverse tastes of modern Indian women.
@@ -48,7 +48,7 @@ const About = () => {
             </div>
 
             <div className="mt-10">
-              <div className="grid grid-cols-3 gap-6 border-t border-gray-800 pt-8 mt-8">
+              <div className="grid grid-cols-2 gap-6 border-t border-gray-800 pt-8 mt-8">
                 <div>
                   <h5 className="text-3xl font-serif text-primary mb-2">4+</h5>
                   <p className="text-sm text-gray-500 uppercase tracking-wider">Years Experience</p>
@@ -56,6 +56,10 @@ const About = () => {
                 <div>
                   <h5 className="text-3xl font-serif text-primary mb-2">2K+</h5>
                   <p className="text-sm text-gray-500 uppercase tracking-wider">Happy Brides</p>
+                </div>
+                <div>
+                  <h5 className="text-3xl font-serif text-primary mb-2">10K+</h5>
+                  <p className="text-sm text-gray-500 uppercase tracking-wider">Happy Customers</p>
                 </div>
                 <div>
                   <h5 className="text-3xl font-serif text-primary mb-2">100+</h5>

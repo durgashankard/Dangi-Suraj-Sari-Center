@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-3 mb-4">
-              <img src="/assets/images/logo.webp" alt="Dangi Suraj Sari Center logo" className="h-10 w-10 object-contain" />
+              <img src="/assets/images/logo.webp" alt="Dangi Suraj Saree Center logo" className="h-10 w-10 object-contain" />
               <span className="font-serif text-xl font-bold text-primary tracking-widest uppercase">
                 Dangi Suraj
               </span>
@@ -51,7 +51,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-900 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-gray-600 text-xs tracking-wider">
-            &copy; {new Date().getFullYear()} Dangi Suraj Sari Center. All Rights Reserved.
+            &copy; {new Date().getFullYear()} Dangi Suraj Saree Center. All Rights Reserved.
           </p>
           <div className="flex gap-4">
             {/* Social Icons Placeholder */}

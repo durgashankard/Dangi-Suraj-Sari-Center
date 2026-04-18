@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 const stats = [
   { number: '4+', label: 'Years Experience', icon: '🏆' },
   { number: '2K+', label: 'Happy Brides', icon: '💍' },
+  { number: '10K+', label: 'Happy Customers', icon: '🌟' },
   { number: '100+', label: 'Designs Available', icon: '✨' },
 ];
 
@@ -13,7 +14,7 @@ const StatsSection = () => {
       <div className="absolute inset-0 bg-gradient-to-r from-transparent via-primary/3 to-transparent pointer-events-none" />
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-0 divide-y sm:divide-y-0 sm:divide-x divide-gray-800">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-0 divide-y sm:divide-y-0 sm:divide-x divide-gray-800">
           {stats.map((stat, i) => (
             <motion.div
               key={stat.label}

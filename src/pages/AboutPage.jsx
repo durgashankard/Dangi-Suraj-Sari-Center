@@ -4,10 +4,10 @@ import { Award, ShieldCheck, TrendingUp, HeartHandshake } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
 
 const milestones = [
-  { year: '2021', event: 'Shop Started', desc: 'Rakesh Dangi opened Dangi Suraj Sari Center in Soyat Kalan with a vision to bring premium ethnic wear to every home.' },
+  { year: '2021', event: 'Shop Started', desc: 'Rakesh Dangi opened Dangi Suraj Saree Center in Soyat Kalan with a vision to bring premium ethnic wear to every home.' },
   { year: '2022', event: 'First 100 Customers', desc: 'Crossed the milestone of 100 loyal customers — a proud first step in building lasting relationships with families.' },
   { year: '2023', event: 'Bridal Collection Added', desc: 'Launched an exclusive bridal collection featuring Kanjivaram silk, Banarasi drapes, and designer lehengas.' },
-  { year: '2024', event: '3000+ Customers', desc: 'Grew to over 3,000 happy customers, cementing our reputation as the region\'s most trusted sari destination.' },
+  { year: '2024', event: '3000+ Customers', desc: 'Grew to over 3,000 happy customers, cementing our reputation as the region\'s most trusted saree destination.' },
   { year: '2025', event: 'Online Presence Started', desc: 'Took our legacy digital — allowing families across Madhya Pradesh and beyond to explore our collections online.' },
 ];
 
@@ -22,13 +22,13 @@ const AboutPage = () => {
   return (
     <PageTransition>
       <Helmet>
-        <title>About Us | Dangi Suraj Sari Center</title>
-        <meta name="description" content="Learn about the story of Dangi Suraj Sari Center, the most trusted saree and ethnic wear shop in Soyat Kalan." />
+        <title>About Us | Dangi Suraj Saree Center</title>
+        <meta name="description" content="Learn about the story of Dangi Suraj Saree Center, the most trusted saree and ethnic wear shop in Soyat Kalan." />
       </Helmet>
       {/* Hero */}
       <section className="relative pt-36 pb-20 bg-black overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/assets/images/placeholder.webp" alt="About Dangi Suraj Sari Center background" className="w-full h-full object-cover opacity-10" />
+          <img src="/assets/images/placeholder.webp" alt="About Dangi Suraj Saree Center background" className="w-full h-full object-cover opacity-10" />
           <div className="absolute inset-0 bg-black/80"></div>
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -43,7 +43,7 @@ const AboutPage = () => {
             </motion.h1>
             <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4 }}
               className="text-gray-300 text-lg leading-relaxed">
-              Since 2021, Dangi Suraj Sari Center has been the heartbeat of ethnic fashion in Soyat Kalan — weaving together trust, craftsmanship, and an undying love for the saree.
+              Since 2021, Dangi Suraj Saree Center has been the heartbeat of ethnic fashion in Soyat Kalan — weaving together trust, craftsmanship, and an undying love for the saree.
             </motion.p>
           </div>
         </div>

@@ -6,8 +6,8 @@ import PageTransition from '../components/PageTransition';
 const LehengaPage = () => (
   <PageTransition>
     <Helmet>
-      <title>Exclusive Lehenga Collection | Dangi Suraj Sari Center</title>
-      <meta name="description" content="Shop grand bridal lehengas and designer ensembles for weddings and parties at Dangi Suraj Sari Center in Soyat Kalan." />
+      <title>Exclusive Lehenga Collection | Dangi Suraj Saree Center</title>
+      <meta name="description" content="Shop grand bridal lehengas and designer ensembles for weddings and parties at Dangi Suraj Saree Center in Soyat Kalan." />
       <meta name="keywords" content="Lehenga shop in Soyat Kalan, Bridal Lehenga, Designer Lehenga, Wedding clothes near Pirawa Road" />
     </Helmet>
     <CategoryPage

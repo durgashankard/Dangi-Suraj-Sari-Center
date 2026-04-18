@@ -34,7 +34,7 @@ const Contact = () => {
               <div>
                 <h4 className="text-xl font-serif text-white mb-2">Showroom Address</h4>
                 <p className="text-gray-400 leading-relaxed max-w-sm">
-                  Dangi Suraj Sari Center, <br />
+                  Dangi Suraj Saree Center, <br />
                   Near Bank of India, Pirawa Road, <br />
                   Soyat Kalan, Madhya Pradesh
                 </p>

@@ -50,15 +50,15 @@ function App() {
     <SeoProvider>
       <BrowserRouter>
         <ScrollToTop />
-      <div className="min-h-screen bg-black text-gray-100 font-sans selection:bg-primary selection:text-black">
-        <Navbar />
-        <main>
-          <AnimatedRoutes />
-        </main>
-        <Footer />
-        <WhatsAppFAB />
-        <ScrollUpButton />
-      </div>
+        <div className="min-h-screen bg-black text-gray-100 font-sans selection:bg-primary selection:text-black">
+          <Navbar />
+          <main>
+            <AnimatedRoutes />
+          </main>
+          <Footer />
+          <WhatsAppFAB />
+          <ScrollUpButton />
+        </div>
       </BrowserRouter>
     </SeoProvider>
   );

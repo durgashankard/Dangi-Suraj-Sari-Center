@@ -68,7 +68,7 @@ const CategoryPage = ({ title, subtitle, bgImage, products, filters }) => {
                   className="group bg-black/60 backdrop-blur border border-gray-900 hover:border-primary/40 transition-colors duration-500 overflow-hidden rounded-sm">
                   {/* Image */}
                   <div className="relative h-72 overflow-hidden">
-                    <img loading="lazy" src={p.image} alt={`Dangi Suraj Sari Center - ${p.name}`}
+                    <img loading="lazy" src={p.image} alt={`Dangi Suraj Saree Center - ${p.name}`}
                       className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700" />
                     <div className="absolute top-3 left-3 bg-black/80 px-2 py-0.5 text-[10px] text-primary uppercase tracking-widest border border-primary/20">
                       {p.type}

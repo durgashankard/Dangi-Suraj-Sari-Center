@@ -30,7 +30,7 @@ const STATIC_ROUTES = [
 ];
 
 const generateSitemap = () => {
-  const baseUrl = 'https://dangisaricenter.com';
+  const baseUrl = 'https://dangisareecenter.com';
   
   let sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">`;

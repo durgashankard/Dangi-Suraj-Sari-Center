@@ -28,7 +28,7 @@ const MenFabricPage = () => {
   return (
     <PageTransition>
       <Helmet>
-        <title>Premium Men's Fabric | Dangi Suraj Sari Center</title>
+        <title>Premium Men's Fabric | Dangi Suraj Saree Center</title>
         <meta name="description" content="Find the best premium unstitched fabric for men. Shirting, suiting, and kurta cloth in Soyat Kalan." />
         <meta name="keywords" content="Men fabric shop in Soyat Kalan, Shirting fabric, Suiting cloth, Tailoring cloth near Pirawa Road" />
       </Helmet>
@@ -118,7 +118,7 @@ const MenFabricPage = () => {
 
                   {/* Image */}
                   <div className="relative h-72 overflow-hidden">
-                    <img loading="lazy" src={p.image} alt={`Dangi Suraj Sari Center - ${p.name}`}
+                    <img loading="lazy" src={p.image} alt={`Dangi Suraj Saree Center - ${p.name}`}
                       className="w-full h-full object-cover transform group-hover:scale-108 transition-transform duration-700 ease-out" />
 
                     {/* Premium fabric overlay */}

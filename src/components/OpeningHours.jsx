@@ -89,7 +89,7 @@ const OpeningHours = () => {
           {/* Bottom tag */}
           <div className="mt-8 pt-6 border-t border-gray-900 text-center">
             <p className="text-gray-600 text-sm">
-              📍 Dangi Suraj Sari Center, Near Bank of India, Pirawa Road, Soyat Kalan
+              📍 Dangi Suraj Saree Center, Near Bank of India, Pirawa Road, Soyat Kalan
             </p>
           </div>
         </motion.div>

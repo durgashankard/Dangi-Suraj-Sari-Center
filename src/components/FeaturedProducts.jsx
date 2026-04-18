@@ -40,7 +40,7 @@ const FeaturedProducts = () => (
           >
             {/* Image */}
             <div className="relative h-64 md:h-80 overflow-hidden">
-              <img loading="lazy" src={p.image} alt={`Dangi Suraj Sari Center - ${p.name}`}
+              <img loading="lazy" src={p.image} alt={`Dangi Suraj Saree Center - ${p.name}`}
                 className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-600 ease-out" />
 
               {/* Category tag */}

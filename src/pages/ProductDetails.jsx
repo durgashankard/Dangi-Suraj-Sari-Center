@@ -29,11 +29,11 @@ const ProductDetails = () => {
   return (
     <PageTransition>
       <Helmet>
-        <title>{product.name} - Dangi Suraj Sari Center</title>
+        <title>{product.name} - Dangi Suraj Saree Center</title>
         <meta name="description" content={product.description} />
-        <meta property="og:title" content={`${product.name} - Dangi Suraj Sari Center`} />
+        <meta property="og:title" content={`${product.name} - Dangi Suraj Saree Center`} />
         <meta property="og:description" content={product.description} />
-        <meta property="og:image" content={`https://dangisaricenter.com${product.image}`} />
+        <meta property="og:image" content={`https://dangisareecenter.com${product.image}`} />
         <meta property="og:type" content="product" />
         <script type="application/ld+json">
           {JSON.stringify({
@@ -41,13 +41,13 @@ const ProductDetails = () => {
             "@type": "Product",
             "name": product.name,
             "image": [
-              `https://dangisaricenter.com${product.image}`
+              `https://dangisareecenter.com${product.image}`
             ],
             "description": product.description,
-            "url": `https://dangisaricenter.com/product/${product.slug}`,
+            "url": `https://dangisareecenter.com/product/${product.slug}`,
             "brand": {
               "@type": "Brand",
-              "name": "Dangi Suraj Sari Center"
+              "name": "Dangi Suraj Saree Center"
             }
           })}
         </script>

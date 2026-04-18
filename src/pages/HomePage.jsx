@@ -10,10 +10,10 @@ import { Helmet } from 'react-helmet-async';
 const HomePage = () => (
   <PageTransition>
     <Helmet>
-      <title>Best Saree Shop in Soyat Kalan | Dangi Suraj Sari Center</title>
-      <meta name="description" content="Visit Dangi Suraj Sari Center in Soyat Kalan for bridal sarees, lehenga, and premium fabric collection." />
-      <meta property="og:title" content="Best Saree Shop in Soyat Kalan | Dangi Suraj Sari Center" />
-      <meta property="og:description" content="Visit Dangi Suraj Sari Center in Soyat Kalan for bridal sarees, lehenga, and premium fabric collection." />
+      <title>Best Saree Shop in Soyat Kalan | Dangi Suraj Saree Center</title>
+      <meta name="description" content="Visit Dangi Suraj Saree Center in Soyat Kalan for bridal sarees, lehenga, and premium fabric collection." />
+      <meta property="og:title" content="Best Saree Shop in Soyat Kalan | Dangi Suraj Saree Center" />
+      <meta property="og:description" content="Visit Dangi Suraj Saree Center in Soyat Kalan for bridal sarees, lehenga, and premium fabric collection." />
     </Helmet>
     <Hero />
     <StatsSection />
