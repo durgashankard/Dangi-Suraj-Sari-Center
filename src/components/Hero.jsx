@@ -7,9 +7,10 @@ const Hero = () => {
       {/* Background */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/assets/images/hero.png"
+          src="/assets/images/hero.webp"
           alt="Bridal saree collection in Soyat Kalan"
           className="w-full h-full object-cover object-center"
+          fetchPriority="high"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/55 to-black/30"></div>
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/30"></div>

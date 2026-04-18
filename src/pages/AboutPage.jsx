@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { Award, ShieldCheck, TrendingUp, HeartHandshake } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
@@ -20,10 +21,14 @@ const values = [
 const AboutPage = () => {
   return (
     <PageTransition>
+      <Helmet>
+        <title>About Us | Dangi Suraj Sari Center</title>
+        <meta name="description" content="Learn about the story of Dangi Suraj Sari Center, the most trusted saree and ethnic wear shop in Soyat Kalan." />
+      </Helmet>
       {/* Hero */}
       <section className="relative pt-36 pb-20 bg-black overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/assets/images/placeholder.png" alt="About Dangi Suraj Sari Center background" className="w-full h-full object-cover opacity-10" />
+          <img src="/assets/images/placeholder.webp" alt="About Dangi Suraj Sari Center background" className="w-full h-full object-cover opacity-10" />
           <div className="absolute inset-0 bg-black/80"></div>
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -50,7 +55,7 @@ const AboutPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <motion.div initial={{ opacity: 0, x: -40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
               <div className="relative aspect-[3/4] overflow-hidden border border-primary/20">
-                <img src="/assets/images/placeholder.png" alt="Premium saree and bridal wear shop setup in Soyat Kalan" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" />
+                <img src="/assets/images/placeholder.webp" alt="Premium saree and bridal wear shop setup in Soyat Kalan" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" />
                 {/* Gold border accent */}
                 <div className="absolute -bottom-4 -right-4 w-24 h-24 border-r-2 border-b-2 border-primary/40"></div>
                 <div className="absolute -top-4 -left-4 w-24 h-24 border-l-2 border-t-2 border-primary/40"></div>
@@ -74,7 +79,7 @@ const AboutPage = () => {
               </div>
 
               <div className="grid grid-cols-3 gap-6 mt-10 pt-10 border-t border-gray-800">
-                {[['4+', 'Years Experience'], ['5K+', 'Brides Served'], ['100+', 'Designs']].map(([num, label]) => (
+                {[['4+', 'Years Experience'], ['2K+', 'Brides Served'], ['100+', 'Designs']].map(([num, label]) => (
                   <div key={label}>
                     <div className="text-3xl font-serif text-primary font-bold mb-1">{num}</div>
                     <div className="text-xs text-gray-600 uppercase tracking-wider">{label}</div>

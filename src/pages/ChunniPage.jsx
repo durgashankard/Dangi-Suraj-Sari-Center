@@ -12,7 +12,7 @@ const ChunniPage = () => (
     <CategoryPage
       title="Chunni & Dupatta"
       subtitle="Exquisite dupattas that complete every ethnic ensemble with grace."
-      bgImage="/assets/images/chunni.png"
+      bgImage="/assets/images/chunni.webp"
       products={products.filter(p => p.category === 'chunni')}
       filters={FILTERS}
     />

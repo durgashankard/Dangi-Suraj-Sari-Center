@@ -42,7 +42,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <img src="/assets/images/logo.png" alt="Logo" className="h-10 w-10 object-contain" />
+            <img src="/assets/images/logo.webp" alt="Logo" className="h-10 w-10 object-contain" />
             <div className="leading-none">
               <div className="font-serif text-lg font-bold text-primary tracking-wider group-hover:text-white transition-colors">Dangi Suraj</div>
               <div className="text-[10px] text-gray-500 uppercase tracking-[0.22em]">Sari Center</div>

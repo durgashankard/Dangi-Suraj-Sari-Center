@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { Scissors, ShoppingBag } from 'lucide-react';
 import { products } from '../data/products';
 import PageTransition from '../components/PageTransition';
@@ -21,15 +22,20 @@ const fabricTypes = [
 
 const MenFabricPage = () => {
   const [active, setActive] = useState('all');
-  const allFabric = products.filter(p => p.category === 'men');
+  const allFabric = products.filter(p => p.category === 'men-fabric');
   const filtered = active === 'all' ? allFabric : allFabric.filter(p => p.type === active);
 
   return (
     <PageTransition>
+      <Helmet>
+        <title>Premium Men's Fabric | Dangi Suraj Sari Center</title>
+        <meta name="description" content="Find the best premium unstitched fabric for men. Shirting, suiting, and kurta cloth in Soyat Kalan." />
+        <meta name="keywords" content="Men fabric shop in Soyat Kalan, Shirting fabric, Suiting cloth, Tailoring cloth near Pirawa Road" />
+      </Helmet>
       {/* Hero */}
       <section className="relative min-h-[65vh] flex items-center pt-20 overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/assets/images/fabric_suiting.png" alt="Men's suiting fabric collection background" className="w-full h-full object-cover opacity-25" />
+          <img src="/assets/images/fabric_suiting.webp" alt="Men's suiting fabric collection background" className="w-full h-full object-cover opacity-25" />
           <div className="absolute inset-0 bg-gradient-to-b from-black via-black/75 to-black" />
           <div className="absolute inset-0 bg-gradient-to-r from-black to-transparent" />
         </div>
@@ -93,6 +99,13 @@ const MenFabricPage = () => {
       {/* Grid */}
       <section className="bg-[#060606] py-14 min-h-screen">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {filtered.length === 0 && (
+            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="py-20 text-center text-gray-500 border border-gray-900 rounded-lg">
+              <p className="text-xl font-serif text-white mb-2">No Fabric Found</p>
+              <p className="text-sm">We currently don't have any products in this specific category.</p>
+            </motion.div>
+          )}
+
           <motion.div layout className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <AnimatePresence mode="popLayout">
               {filtered.map(p => (
@@ -105,7 +118,7 @@ const MenFabricPage = () => {
 
                   {/* Image */}
                   <div className="relative h-72 overflow-hidden">
-                    <img src={p.image} alt={p.name}
+                    <img loading="lazy" src={p.image} alt={`Dangi Suraj Sari Center - ${p.name}`}
                       className="w-full h-full object-cover transform group-hover:scale-108 transition-transform duration-700 ease-out" />
 
                     {/* Premium fabric overlay */}

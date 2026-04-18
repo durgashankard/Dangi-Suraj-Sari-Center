@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 const stats = [
   { number: '4+', label: 'Years Experience', icon: '🏆' },
-  { number: '5K+', label: 'Happy Brides', icon: '💍' },
+  { number: '2K+', label: 'Happy Brides', icon: '💍' },
   { number: '100+', label: 'Designs Available', icon: '✨' },
 ];
 

@@ -22,7 +22,7 @@ const MenPage = () => {
       {/* Hero */}
       <section className="relative min-h-[60vh] flex items-center pt-20 overflow-hidden">
         <div className="absolute inset-0">
-          <img src="/assets/images/men.png" alt="Men Fashion" className="w-full h-full object-cover object-top opacity-30" />
+          <img src="/assets/images/men.webp" alt="Men Fashion" className="w-full h-full object-cover object-top opacity-30" />
           <div className="absolute inset-0 bg-gradient-to-r from-black via-black/70 to-black/20"></div>
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-black"></div>
         </div>

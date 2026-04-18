@@ -7,7 +7,7 @@ const sarees = [
     category: "saree",
     type: "bridal",
     price: "₹18,500",
-    image: "/assets/images/hero.png",
+    image: "/assets/images/hero.webp",
     description: "A timeless Kanjivaram silk masterpiece in deep maroon with a heavy gold zari border and traditional temple motifs. Ideal for the main wedding ceremony. Pure mulberry silk, handwoven by master craftsmen.",
   },
   {
@@ -17,7 +17,7 @@ const sarees = [
     category: "saree",
     type: "bridal",
     price: "₹22,000",
-    image: "/assets/images/saree_bridal_gold.png",
+    image: "/assets/images/saree_bridal_gold.webp",
     description: "Breathtaking gold-toned silk saree with all-over zari buteh motifs and a magnificent pallu. A true heirloom piece crafted for the discerning bride.",
   },
   {
@@ -27,7 +27,7 @@ const sarees = [
     category: "saree",
     type: "bridal",
     price: "₹15,000",
-    image: "/assets/images/saree_banarasi.png",
+    image: "/assets/images/saree_banarasi.webp",
     description: "Vibrant Banarasi silk in golden yellow with intricate brocade weaving and a rich contrast border. Brings festive grandeur to your bridal trousseau.",
   },
   {
@@ -37,7 +37,7 @@ const sarees = [
     category: "saree",
     type: "party",
     price: "₹8,000",
-    image: "/assets/images/saree_party_blue.png",
+    image: "/assets/images/saree_party_blue.webp",
     description: "Dazzling royal blue georgette with all-over silver sequence embellishments and a flowy drape. The perfect statement piece for cocktails and evening events.",
   },
   {
@@ -47,7 +47,7 @@ const sarees = [
     category: "saree",
     type: "party",
     price: "₹9,500",
-    image: "/assets/images/saree_party_champagne.png",
+    image: "/assets/images/saree_party_champagne.webp",
     description: "Sheer champagne organza with delicate floral sequin work. Lightweight, luminous, and effortlessly glamorous for formal events and receptions.",
   },
   {
@@ -57,7 +57,7 @@ const sarees = [
     category: "saree",
     type: "daily",
     price: "₹1,200",
-    image: "/assets/images/saree_daily_cotton.png",
+    image: "/assets/images/saree_daily_cotton.webp",
     description: "100% breathable cotton saree with traditional hand-block printing in pastel hues. Easy to drape and maintain — a wardrobe staple for graceful everyday living.",
   },
   {
@@ -67,7 +67,7 @@ const sarees = [
     category: "saree",
     type: "daily",
     price: "₹2,500",
-    image: "/assets/images/placeholder.png",
+    image: "/assets/images/placeholder.webp",
     description: "A rich silk saree with subtle gold thread work, perfect for festive occasions and everyday elegance. Comfortable and versatile.",
   },
 ];
@@ -81,7 +81,7 @@ const lehengas = [
     category: "lehenga",
     type: "wedding",
     price: "₹45,000",
-    image: "/assets/images/lehenga.png",
+    image: "/assets/images/lehenga.webp",
     description: "A breathtaking crimson silk lehenga with heavy gota patti work on the skirt, hand-embroidered blouse, and matching dupatta. The ultimate bridal ensemble.",
   },
   {
@@ -91,7 +91,7 @@ const lehengas = [
     category: "lehenga",
     type: "wedding",
     price: "₹55,000",
-    image: "/assets/images/lehenga_ivory.png",
+    image: "/assets/images/lehenga_ivory.webp",
     description: "Pristine ivory velvet lehenga with intricate zardosi and stone work throughout. A dream for the modern bride who wants timeless sophistication.",
   },
   {
@@ -101,7 +101,7 @@ const lehengas = [
     category: "lehenga",
     type: "designer",
     price: "₹18,000",
-    image: "/assets/images/lehenga_peach.png",
+    image: "/assets/images/lehenga_peach.webp",
     description: "Soft peach net lehenga with delicate thread embroidery and a signature ruffled hem. Effortlessly beautiful for sangeet, mehendi, or engagement ceremonies.",
   },
   {
@@ -111,7 +111,7 @@ const lehengas = [
     category: "lehenga",
     type: "designer",
     price: "₹22,000",
-    image: "/assets/images/chunni.png",
+    image: "/assets/images/chunni.webp",
     description: "Vibrant royal blue lehenga with intricate mirror and sequin embellishments. A showstopper at any festive function or reception.",
   },
 ];
@@ -125,7 +125,7 @@ const menFabric = [
     category: "men-fabric",
     type: "shirt-fabric",
     price: "Inquire for Price",
-    image: "/assets/images/fabric_cotton.png",
+    image: "/assets/images/fabric_cotton.webp",
     description: "High-quality 100% pure cotton shirting fabric available in solids, checks, and stripes. Breathable, easy to stitch, and suitable for formal and casual shirts. Get the perfect custom shirt tailored just for you.",
   },
   {
@@ -135,7 +135,7 @@ const menFabric = [
     category: "men-fabric",
     type: "shirt-fabric",
     price: "Inquire for Price",
-    image: "/assets/images/fabric_linen.png",
+    image: "/assets/images/fabric_linen.webp",
     description: "Fine natural linen in beige, cream, and off-white tones. A premium choice for summer shirts and kurtas — highly breathable with a crisp, elegant texture.",
   },
   {
@@ -145,7 +145,7 @@ const menFabric = [
     category: "men-fabric",
     type: "pant-fabric",
     price: "Inquire for Price",
-    image: "/assets/images/fabric_suiting.png",
+    image: "/assets/images/fabric_suiting.webp",
     description: "Premium wool-blend suiting fabric in charcoal grey and navy blue. Perfect for tailored formal suits, blazers, and dress trousers. Rich texture with excellent drape.",
   },
   {
@@ -155,7 +155,7 @@ const menFabric = [
     category: "men-fabric",
     type: "suit-fabric",
     price: "Inquire for Price",
-    image: "/assets/images/fabric.png",
+    image: "/assets/images/fabric.webp",
     description: "Premium suit fabric in classic shades of grey, black, and navy. Ideal for tailoring sharp formal suits for weddings, interviews, and special occasions. Stylish and long-lasting.",
   },
   {
@@ -165,7 +165,7 @@ const menFabric = [
     category: "men-fabric",
     type: "kurta-fabric",
     price: "Inquire for Price",
-    image: "/assets/images/fabric.png",
+    image: "/assets/images/fabric.webp",
     description: "Luxurious Banarasi brocade fabric with traditional gold and maroon motifs. Ideal for custom-stitched sherwani and ceremonial kurtas. A mark of regal craftsmanship.",
   },
   {
@@ -175,7 +175,7 @@ const menFabric = [
     category: "men-fabric",
     type: "kurta-fabric",
     price: "Inquire for Price",
-    image: "/assets/images/fabric_kurta.png",
+    image: "/assets/images/fabric_kurta.webp",
     description: "Soft cotton-linen blend fabric with delicate chikankari-style embroidery. Perfect for getting a custom kurta stitched for weddings, festivals, and formal occasions.",
   },
 ];
@@ -187,7 +187,7 @@ export const categories = [
     id: 1,
     title: "Saree",
     filterId: "saree",
-    image: "/assets/images/saree_bridal_gold.png",
+    image: "/assets/images/saree_bridal_gold.webp",
     path: "/category/saree",
     subtitle: "Bridal · Party · Daily Wear",
     desc: "Timeless silk drapes for every occasion.",
@@ -196,7 +196,7 @@ export const categories = [
     id: 2,
     title: "Lehenga",
     filterId: "lehenga",
-    image: "/assets/images/lehenga_ivory.png",
+    image: "/assets/images/lehenga_ivory.webp",
     path: "/category/lehenga",
     subtitle: "Wedding · Designer",
     desc: "Grand bridal lehengas and designer ensembles.",
@@ -205,7 +205,7 @@ export const categories = [
     id: 3,
     title: "Men Fabric",
     filterId: "men-fabric",
-    image: "/assets/images/fabric_suiting.png",
+    image: "/assets/images/fabric_suiting.webp",
     path: "/category/men-fabric",
     subtitle: "Shirting · Suiting · Kurta Cloth",
     desc: "Premium unstitched fabric for custom tailoring.",

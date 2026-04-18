@@ -1,12 +1,12 @@
 import { motion } from 'framer-motion';
 
 const images = [
-  "/assets/images/hero.png",
-  "/assets/images/placeholder.png",
-  "/assets/images/placeholder.png",
-  "/assets/images/placeholder.png",
-  "/assets/images/hero.png",
-  "/assets/images/placeholder.png",
+  "/assets/images/hero.webp",
+  "/assets/images/placeholder.webp",
+  "/assets/images/placeholder.webp",
+  "/assets/images/placeholder.webp",
+  "/assets/images/hero.webp",
+  "/assets/images/placeholder.webp",
 ];
 
 const Gallery = () => {

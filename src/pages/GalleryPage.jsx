@@ -4,13 +4,13 @@ import { X } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
 
 const galleryImages = [
-  { src: '/assets/images/hero.png', span: 'md:col-span-2 md:row-span-2', label: 'Bridal Splendor' },
-  { src: '/assets/images/placeholder.png', span: '', label: 'Golden Silk' },
-  { src: '/assets/images/placeholder.png', span: '', label: 'Festive Drape' },
-  { src: '/assets/images/placeholder.png', span: 'md:col-span-2', label: 'Party Look' },
-  { src: '/assets/images/hero.png', span: '', label: 'Wedding Day' },
-  { src: '/assets/images/placeholder.png', span: '', label: 'Daily Grace' },
-  { src: '/assets/images/placeholder.png', span: 'md:col-span-2', label: 'Banarasi Beauty' },
+  { src: '/assets/images/hero.webp', span: 'md:col-span-2 md:row-span-2', label: 'Bridal Splendor' },
+  { src: '/assets/images/placeholder.webp', span: '', label: 'Golden Silk' },
+  { src: '/assets/images/placeholder.webp', span: '', label: 'Festive Drape' },
+  { src: '/assets/images/placeholder.webp', span: 'md:col-span-2', label: 'Party Look' },
+  { src: '/assets/images/hero.webp', span: '', label: 'Wedding Day' },
+  { src: '/assets/images/placeholder.webp', span: '', label: 'Daily Grace' },
+  { src: '/assets/images/placeholder.webp', span: 'md:col-span-2', label: 'Banarasi Beauty' },
 ];
 
 const GalleryPage = () => {

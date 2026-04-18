@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-3 mb-4">
-              <img src="/assets/images/logo.png" alt="Dangi Suraj Sari Center logo" className="h-10 w-10 object-contain" />
+              <img src="/assets/images/logo.webp" alt="Dangi Suraj Sari Center logo" className="h-10 w-10 object-contain" />
               <span className="font-serif text-xl font-bold text-primary tracking-widest uppercase">
                 Dangi Suraj
               </span>
