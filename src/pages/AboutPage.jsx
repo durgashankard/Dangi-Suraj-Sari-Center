@@ -55,7 +55,7 @@ const AboutPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <motion.div initial={{ opacity: 0, x: -40 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
               <div className="relative aspect-[3/4] overflow-hidden border border-primary/20">
-                <img src="/assets/images/placeholder.webp" alt="Premium saree and bridal wear shop setup in Soyat Kalan" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" />
+                <img src="/assets/images/Dangi Rakesh.png" alt="Premium saree and bridal wear shop setup in Soyat Kalan" className="w-full h-full object-cover hover:grayscale-0 transition-all duration-700" />
                 {/* Gold border accent */}
                 <div className="absolute -bottom-4 -right-4 w-24 h-24 border-r-2 border-b-2 border-primary/40"></div>
                 <div className="absolute -top-4 -left-4 w-24 h-24 border-l-2 border-t-2 border-primary/40"></div>
